@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Join Us| Dhruva Band</title>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kranky&display=swap');
+            .dhruva-text {
+                font-size: 35px;
+                font-style: italic;
+                color: #ff5733; /* This sets the font color to a shade of orange */
+                font-weight: bold;
+                font-family: 'Kranky', cursive;
+            }
+            .page-title {
+    padding-top: 12%;
+    color: white;
+    font-size: 36px;
+    font-size: 2.25em;
+            }
+            .form-select-custom
+             {
+            background-color: #f8f9fa; /* Light gray background */
+            color: #444a50;
+             } 
+             .custom-select-lg option {
+            font-size: 1.25rem; /* Ensure option text is larger too */
+            width: 100%; /* Adjust width as needed */
+            height: 3rem; /* Adjust height as needed */
+            padding: 0.5rem 1rem;
+        }
+        </style>
+
+
+<script>
+    function clearForm() {
+        // Select the form by its ID
+        const form = document.getElementById("myForm");
+        // Reset the form
+        form.reset();
+    }
+
+    function handleSubmit(event) {
+        // Prevent the default form submission
+        event.preventDefault();
+        
+        // Form data can be processed here (e.g., sending to the server)
+        
+        // Clear the form data
+        clearForm();
+
+        // Optional: Display a message or redirect the user
+        alert("Form submitted successfully!");
+
+        // Optional: Redirect the user to another page
+        // window.location.href = "thank_you.html";
+    }
+</script>
+
+	</head>
+
+	<body>
+
+<body class="header-collapse">
+    <div id="site-content">
+        <header class="site-header">
+            <div class="container">
+                <a href="reg.html" id="branding">
+                    <p class="dhruva-text">Dhuruva</p>
+                    <small class="site-description">Beat of Future</small>
+                    <br>
+                </a> <!-- #branding -->
+
+                <nav class="main-navigation">
+                    <button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="about.html">About</a></li>
+                        <li class="menu-item"><a href="gallery.html">Gallery</a></li>
+                        
+                        <li class="menu-item current-menu-item"><a href="reg.html">Join us</a></li>
+                    </ul> <!-- .menu -->
+                </nav> <!-- .main-navigation -->
+                <div class="mobile-menu"></div>
+            </div>
+        </header> <!-- .site-header -->
+
+        </div>
+        <main class="main-content">
+            <div class="fullwidth-block inner-content">
+                <div class="container">
+                    <h2 class="page-title">Registration</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form id="myForm" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                                <div>
+                                <input type="hidden" name="access_key" value="32902b24-f94e-43eb-990c-583e31171b2b">
+                                <input type="text" name="name" placeholder="Name">
+                                <input type="email" name="email" placeholder="email">
+                                <input type="text" name="Branch"  placeholder="Branch">
+                                <input type="text" name="Semester" placeholder="Semester">
+                                <input type="text"  name="vocal or instrument" placeholder="Vocal/Instrument">
+                                <input type="text" name="Specification of instument" placeholder="Specify the instrumnet (If vocal type no)">
+                                <input type="number" name=" Phone numeber"  placeholder="contact number">
+                                <input id="myButton"  type="submit" name="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+
+                                    </div>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- .testimonial-section -->
+            <footer class="site-footer">
+                <div class="container">
+                    <p class="dhruva-text">Dhuruva</p>
+                    <address>
+                        <p>College of engneering kidangoor<br><a href="https://maps.app.goo.gl/A5zztxBFzLtWdqfs6">686572</a><br><a href="mailto:collegebandcek@gmail.com">info@dhruva.com</a></p>
+                    </address>
+                     <!-- .newsletter-form -->
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/music_band_cek?igsh=Mjgxc20zZnMyZzM5 "><i class="fa fa-instagram"></i></a>
+                    </div> <!-- .social-links -->
+                    <p class="copy">Copyright 2024 Dhruva. Designed by Ajay krishnan. All rights reserved.</p>
+                </div>
+            </footer> <!-- .site-footer -->
+        </div> <!-- #site-content -->
+    
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/app.js"></script>
+
+
+
+
+       
+    </body>
+    </html>
+
+            
+        </main> <!-- .main-content -->
